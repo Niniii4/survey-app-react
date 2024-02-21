@@ -13,7 +13,8 @@ const json = {
                         {
                         "type": "image",
                         "name": "first_page_image",
-                        "imageLink": "https://www.pinclipart.com/picdir/big/532-5323786_coronavirus-cartoon-for-kids-clipart.png",
+                        //"imageLink": "https://www.pinclipart.com/picdir/big/532-5323786_coronavirus-cartoon-for-kids-clipart.png",
+                        "imageLink": "https://content.energage.com/company-images/45140/logo.png",
                         "imageHeight": 450,
                         "imageWidth": 450
                         }
@@ -110,7 +111,7 @@ const json = {
                                     ]
                                 }, {
                                     "name": "form_completion_date",
-                                    "title": "Date of form completion ",
+                                    "title": "Date of form completion",
                                     "inputType": "date",
                                     "dateFormat": "mm/dd/yy",
                                     "type": "text", 
@@ -118,16 +119,16 @@ const json = {
                                     "titleLocation": "left",
                                     "requiredErrorText":"Please insert a valid date in form mm/dd/yyyy",
                                     "min": "2021-12-01",
-                                    "max": "2023-12-01"
+                                    "max": "2024-12-01"
                                 }, {
                                     "type": "signaturepad",
                                     "name": "signature",
                                     "title": "Data collector's signature", 
                                     "isRequired": true,
-                                    "width": "528%",
+                                    "width": "400%",
                                     "height": 100,
                                     "titleLocation": "left",
-                                    "penColor": "#ff8040",
+                                    "penColor": "#9370db",
                                     "requiredErrorText":"Please insert a signature",
                                 }
                             ],

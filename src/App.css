@@ -1,6 +1,6 @@
 .App {
   text-align: center;
-  transform: scale(0.5); /* Adjust the scale factor as needed */
+  transform: scale(0.7); /* Adjust the scale factor as needed */
   transform-origin: top center;
 }
 
@@ -26,4 +26,10 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.sv_q_erbox {
+  padding: 0;
+  margin: 0;
+  line-height: 0.1; 
 }

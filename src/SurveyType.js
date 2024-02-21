@@ -4,7 +4,7 @@ import * as Survey from 'survey-react';
 import json from './SurveyData';
 
 const MySurvey = () => {
-    Survey.StylesManager.applyTheme("orange");
+    Survey.StylesManager.applyTheme("darkblue");
     function sendDataToServer(survey) {
         //send Ajax request to your web server.
         //alert("The results are:" + JSON.stringify(survey.data));
